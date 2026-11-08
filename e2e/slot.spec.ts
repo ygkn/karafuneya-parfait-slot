@@ -50,10 +50,14 @@ test('each slip flips on its own', async ({ page }) => {
   await expect(cards.nth(0)).toHaveAttribute('aria-expanded', 'false')
 })
 
-test('space key pulls and stops', async ({ page }) => {
+test('space key pulls and stops, right after choosing a store', async ({ page }) => {
   await page.goto('/')
   await chooseStore(page, '三条本店')
-  for (let i = 0; i < 4; i++) { await page.keyboard.press('Space'); await page.waitForTimeout(150) }
+  // no wait here on purpose: focus may still be on the store button inside the closing dialog
+  for (let i = 0; i < 4; i++) {
+    await page.keyboard.press('Space')
+    await page.waitForTimeout(150)
+  }
   await expect(page.locator('.slip .big')).toHaveCount(1)
 })
 

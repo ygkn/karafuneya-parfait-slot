@@ -85,8 +85,9 @@
   function onkey(e: KeyboardEvent) {
     if (e.code !== 'Space' || storeOpen || kindOpen || settingsOpen || !store) return
     const t = e.target as HTMLElement
-    // Space on other focused controls (store, kind, settings, slip cards) keeps its normal meaning
-    if (t.closest('button') && !t.closest('.lever, .stop')) return
+    // Space on other focused page controls (store, kind, settings, slip cards) keeps its normal meaning.
+    // Focus can linger on a button inside a just-closed dialog; that one must not swallow the key.
+    if (t.closest('button') !== null && t.closest('.lever, .stop, dialog') === null) return
     e.preventDefault()
     machine?.next()
   }
