@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&display=block">
+<style>
+  /* 1200x630 share card, same palette as the page */
+  * { box-sizing: border-box; margin: 0 }
+  body { width: 1200px; height: 630px; overflow: hidden; font-family: "M PLUS Rounded 1c", sans-serif;
+    background: #fbe3e8 radial-gradient(#efc6ce 3px, transparent 3.2px) 0 0/44px 44px; color: #3b2219;
+    display: flex; align-items: center; gap: 56px; padding: 0 80px }
+  .text { flex: 1; display: flex; flex-direction: column; gap: 22px }
+  .badge { align-self: flex-start; font-size: 30px; font-weight: 800; letter-spacing: .2em; background: #6b3a26; color: #fffaf0;
+    border-radius: 12px; padding: 6px 18px; box-shadow: inset 0 0 0 3px #f0b13e }
+  h1 { font-size: 78px; font-weight: 800; line-height: 1.2; letter-spacing: .04em; white-space: nowrap; color: #df3159;
+    text-shadow: 4px 4px 0 #fffaf0, 6px 6px 0 #6b3a2699 }
+  p { font-size: 34px; font-weight: 700; color: #6e4239 }
+  .machine { flex: none; position: relative; width: 400px }
+  .cream { height: 70px; background: #fffaf0; border-radius: 50% 50% 0 0/100% 100% 0 0; box-shadow: inset 0 -8px 0 #f1e2cc; margin: 0 24px }
+  .cherry { position: absolute; left: 50%; top: -34px; width: 50px; height: 50px; margin-left: -25px; border-radius: 50%;
+    background: radial-gradient(circle at 34% 30%, #fffb 0 7px, transparent 8px), #df3159; box-shadow: inset -6px -7px 0 #981a37 }
+  .cherry::before { content: ""; position: absolute; left: 24px; top: -32px; width: 26px; height: 36px; border-left: 5px solid #8db158;
+    border-top: 5px solid #8db158; border-radius: 26px 0 0 0; transform: rotate(18deg) }
+  .glass { background: #ffffffaa; border: 5px solid #fff; border-top: none; border-radius: 0 0 70px 70px; padding: 18px 16px 0; overflow: hidden }
+  .window { display: flex; align-items: center; justify-content: center; gap: 12px; background: #3e2117; border-radius: 26px; padding: 26px 16px }
+  .no { color: #f0b13e; font-size: 36px; font-weight: 800; writing-mode: vertical-rl }
+  .reel { width: 92px; height: 150px; border-radius: 16px; background: linear-gradient(#3e2117aa, #fffaf0 30%, #fffaf0 70%, #3e2117aa);
+    display: grid; place-items: center; font-size: 84px; font-weight: 800; color: #3e2117; border-block: 5px solid #df3159 }
+  .layers i { display: block }
+  .layers i:nth-child(1) { height: 24px; margin-top: 20px; background: #fffaf0 }
+  .layers i:nth-child(2) { height: 24px; background: #df3159 }
+  .layers i:nth-child(3) { height: 28px; background: radial-gradient(circle, #c8862a 3px, transparent 3.5px) 0 0/16px 12px, #f0b13e }
+  .layers i:nth-child(4) { height: 30px; background: #6b3a26 }
+</style>
+</head>
+<body>
+  <div class="text">
+    <span class="badge">非公式</span>
+    <h1>からふね屋<br>パフェスロット</h1>
+    <p>出た番号のパフェを注文しよう</p>
+  </div>
+  <div class="machine">
+    <span class="cherry"></span>
+    <div class="cream"></div>
+    <div class="glass">
+      <div class="window"><span class="no">No.</span><span class="reel">?</span><span class="reel">?</span><span class="reel">?</span></div>
+      <div class="layers"><i></i><i></i><i></i><i></i></div>
+    </div>
+  </div>
+</body>
+</html>

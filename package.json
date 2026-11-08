@@ -12,7 +12,8 @@
     "lint": "eslint --flag unstable_native_nodejs_ts_config --max-warnings 0 .",
     "test": "vitest run",
     "test:e2e": "playwright test --trace off",
-    "verify": "npm run check && npm run lint && npm test && npm run test:e2e"
+    "verify": "npm run check && npm run lint && npm test && npm run test:e2e",
+    "ogp": "node scripts/ogp/render.ts"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

@@ -41,6 +41,7 @@ Node.js 22.18 以上（TypeScript をそのまま実行します）。
 npm install
 npm run dev        # 開発サーバー
 npm run data       # data/extracted → src/lib/stores.json
+npm run ogp        # scripts/ogp/ogp.html → public/ogp.png（共有用画像）
 npm run check      # svelte-check（警告もエラー扱い）+ tsc
 npm run lint       # ESLint（typescript-eslint strictTypeChecked + eslint-plugin-svelte）
 npm test           # Vitest（抽選ロジックとデータの検査）
