@@ -61,8 +61,8 @@
   .big { font-weight: 700; letter-spacing: .02em; font-size: 2.6rem; line-height: 1.1; color: var(--berry); font-variant-numeric: tabular-nums }
   .old .big { font-size: 1.8rem }
   .miss { color: var(--sub); text-decoration: line-through; text-decoration-thickness: 3px }
-  .say { font-size: .95rem; word-break: auto-phrase; text-wrap: balance }
-  .tip { margin-top: 4px; font-size: .78rem; font-weight: 500; color: var(--sub); word-break: auto-phrase; text-wrap: balance }
+  .say { font-size: .95rem; word-break: auto-phrase; overflow-wrap: anywhere; text-wrap: balance }
+  .tip { margin-top: 4px; font-size: .78rem; font-weight: 500; color: var(--sub); word-break: auto-phrase; overflow-wrap: anywhere; text-wrap: balance }
   .anno { display: inline-block; align-self: center; margin-top: 6px; font-size: .8rem; font-weight: 700; color: var(--ink); background: color-mix(in srgb, var(--gold) 30%, var(--card)); border-radius: 8px; padding: 3px 10px }
   .lid { margin-top: 12px; perspective: 600px }
   .card {
@@ -73,7 +73,7 @@
   .face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; border-radius: 14px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 6px 12px }
   .front { color: var(--cream); font-weight: 800; font-size: 1rem; background: repeating-linear-gradient(45deg, var(--choco-2) 0 10px, color-mix(in srgb, var(--choco-2) 80%, var(--choco)) 10px 20px); box-shadow: inset 0 0 0 3px var(--gold) }
   .back { transform: rotateX(180deg); background: color-mix(in srgb, var(--gold) 22%, var(--card)); border: 2px solid var(--gold) }
-  .back b { font-size: 1.05rem; line-height: 1.35; text-wrap: balance; word-break: auto-phrase }
+  .back b { font-size: 1.05rem; line-height: 1.35; text-wrap: balance; word-break: auto-phrase; overflow-wrap: anywhere }
   .price { font-size: .85rem; color: var(--ink); font-variant-numeric: tabular-nums }
   .gap { display: inline-block; width: 1em }
   .back small { font-size: .7rem; color: var(--ink) }

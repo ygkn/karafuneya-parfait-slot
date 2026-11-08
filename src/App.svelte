@@ -148,7 +148,7 @@
   .wrap { max-width: 400px }
   .unofficial { width: 100%; margin: 0; display: flex; align-items: center; gap: 10px; background: var(--choco-2); color: var(--cream); border-radius: 12px; padding: 8px 12px; text-align: left; box-shadow: inset 0 0 0 2px var(--gold) }
   .unofficial b { flex: none; font-size: 1rem; font-weight: 800; letter-spacing: .15em; background: var(--gold); color: var(--choco); border-radius: 6px; padding: 2px 8px }
-  .unofficial :global(> span) { flex: 1; min-width: 0; font-size: .76rem; line-height: 1.5; word-break: auto-phrase }
+  .unofficial :global(> span) { flex: 1; min-width: 0; font-size: .76rem; line-height: 1.5; word-break: auto-phrase; overflow-wrap: anywhere }
   .sign { text-align: center }
   .sign h1 { margin: 0; font-weight: 800; font-size: clamp(1.7rem, 8.5vw, 2.2rem); line-height: 1.2; letter-spacing: .12em; color: var(--berry); text-shadow: 2px 2px 0 var(--cream), 3px 3px 0 color-mix(in srgb, var(--choco-2) 60%, transparent); text-wrap: balance }
   .sign p { margin: 8px 0 0; font-size: .85rem; color: var(--sub) }

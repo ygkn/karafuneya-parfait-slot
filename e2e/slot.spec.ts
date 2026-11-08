@@ -89,3 +89,22 @@ test.describe('accessibility (axe)', () => {
     }
   })
 })
+
+test('every parfait name fits inside the flipped slip', async ({ page }) => {
+  await page.setViewportSize({ width: 320, height: 800 })
+  await page.goto('/')
+  await chooseStore(page, '三条本店')
+  await spinWithButtons(page)
+  await page.getByRole('button', { name: 'タップしてパフェを見る' }).click()
+  const names = [...new Set(stores.flatMap((s) => s.items.map((p) => p.name)))]
+  const overflowing = await page.evaluate((list) => {
+    const b = document.querySelector('.back b')
+    const face = document.querySelector('.back')
+    if (!(b instanceof HTMLElement) || !(face instanceof HTMLElement)) return ['slip not found']
+    return list.filter((name) => {
+      b.textContent = name
+      return b.scrollWidth > face.clientWidth || b.getBoundingClientRect().height > face.clientHeight
+    })
+  }, names)
+  expect(overflowing).toEqual([])
+})

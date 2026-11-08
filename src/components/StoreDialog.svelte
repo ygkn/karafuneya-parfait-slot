@@ -41,7 +41,7 @@
 <style>
   .first { display: flex; flex-direction: column; gap: 10px; margin: 10px 0 14px }
   .off { margin: 0; display: flex; align-items: center; gap: 10px; font-size: .8rem; line-height: 1.6; text-align: left }
-  .off :global(> span) { flex: 1; min-width: 0; word-break: auto-phrase }
+  .off :global(> span) { flex: 1; min-width: 0; word-break: auto-phrase; overflow-wrap: anywhere }
   .off b {
     flex: none; font-size: .78rem; font-weight: 800; letter-spacing: .12em; background: var(--choco-2); color: var(--cream);
     border-radius: 6px; padding: 1px 7px;
