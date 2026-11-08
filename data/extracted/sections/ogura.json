@@ -1,0 +1,89 @@
+{
+ "store": "ogura",
+ "sections": [
+  {
+   "name": "パフェ PARFAIT",
+   "pages": [
+    1
+   ],
+   "items": [
+    377,
+    310,
+    320,
+    378,
+    214,
+    20,
+    112,
+    215
+   ]
+  },
+  {
+   "name": "ソフトクリームをたっぷり使用!!",
+   "pages": [
+    1
+   ],
+   "items": [
+    377,
+    310,
+    320,
+    378
+   ]
+  }
+ ],
+ "unsectioned": [
+  46,
+  131,
+  32,
+  90,
+  166,
+  169,
+  73,
+  173,
+  403,
+  185,
+  83,
+  85,
+  205,
+  300,
+  87,
+  97,
+  319,
+  424,
+  324,
+  114,
+  40,
+  801,
+  9,
+  6,
+  29,
+  117,
+  49,
+  275,
+  359,
+  1,
+  509,
+  36,
+  43,
+  466,
+  533,
+  404,
+  170,
+  307,
+  167,
+  172,
+  306,
+  8,
+  278,
+  121,
+  274,
+  62
+ ],
+ "notes": [
+  "The only category heading on parfait pages 1-4 is the page-1 title 「パフェ PARFAIT」 (with 「※ご注文は番号でお申し付けください。」 and the intro line 「からふね屋が開発した400種類以上のパフェの中から54品を厳選しました。」). Pages 2-4 have no printed heading; only the SET DRINK box repeats. They go in 'unsectioned' (in page order). The 「パフェ PARFAIT」 title arguably covers the whole 54-item parfait menu.",
+  "「ソフトクリームをたっぷり使用!!」 is a page-1 subheading over the four ジャンボソフトパフェ (377,310,320,378). Those items are also in 「パフェ PARFAIT」.",
+  "The page-1 bottom row (214,20,112) and 215 have no subheading of their own, so they are only in 「パフェ PARFAIT」.",
+  "Badges, not sections: 「人気商品」 on 377; 「要予約」 on 215 (teal box: ※5日前までにご予約ください, 高さ約36cm・容量約3.2kg, 4~6名様向け); 「ぜんざいに見立てたユニークなパフェ」 caption on 306 (p4).",
+  "Pages 2-4 have no labels, but the items are visibly grouped by flavour: p2 chocolate/caramel, p3 生チョコマシュマロ + strawberry/mango/peach, p4 matcha/和 + pudding/milk tea. These groupings are not printed text.",
+  "Verified separately from kumano: ogura has the same headings, badges and item-to-page placement. Differences: ogura prints no English item names, and the 319/424/324 positions on p3 are arranged slightly differently."
+ ]
+}

@@ -1,0 +1,14 @@
+{"store":"viera","sections":[
+{"name":"定番のパフェ","pages":[2],"items":[112,214,124,40,121,122]},
+{"name":"ジャンボソフトパフェ","pages":[3],"items":[476,320,377,378,310]},
+{"name":"生チョコマシュマロパフェ","pages":[3],"items":[424,319,324,423]},
+{"name":"お茶パフェ","pages":[4],"items":[533,390,466,474,532,467,395],"subsections":[{"name":"抹茶","items":[533,390,466,474]},{"name":"ほうじ茶","items":[532,467,395]}]},
+{"name":"ワッフルパフェ","pages":[5],"items":[361,386,397,398,435]},
+{"name":"ジェラートパフェ","pages":[6],"items":[86,364,454,275,363,29]},
+{"name":"セットパフェ","pages":[11],"items":[436,437,438]}
+],"unsectioned":[],
+"notes":["p2 heading is 'KARAFUNEYA'S PARFAIT! PARFAIT! PARFAIT!' with subtitle '定番のパフェを集めました。'; per-item flavor labels (Coffee/Chocolate/Strawberry/Tea/Mango) are decorative, not sections",
+"p3 left: 'Jumbo Soft-Serve Parfait ジャンボソフトパフェ'; p3 right: 'GANACHE & MARSHMALLOW 生チョコマシュマロパフェ'",
+"p4: 'Tea Parfait お茶パフェ' with sub-labels 抹茶 (green half) / ほうじ茶 (pink half); item 391 よくばり和風パフェ～抹茶とほうじ茶～ ¥1,310 is printed on p4 (spans both halves) but is NOT in out/viera.json, so omitted here",
+"p6: 'ジェラートパフェ GELATO Parfait' (circle labels Strawberry/Mango are decorative)",
+"p11: 'Set Parfait セットパフェ' (all ¥530, only with food/drink order)"]}

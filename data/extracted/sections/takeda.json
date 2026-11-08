@@ -1,0 +1,52 @@
+{
+ "store": "takeda",
+ "sections": [
+  {
+   "name": "パフェ",
+   "pages": [
+    1,
+    2,
+    3
+   ],
+   "items": [
+    310,
+    415,
+    378,
+    377,
+    32,
+    424,
+    801,
+    275,
+    166,
+    83,
+    86,
+    95,
+    87,
+    403,
+    319,
+    239,
+    73,
+    214,
+    169,
+    112,
+    15,
+    215,
+    404,
+    43,
+    466,
+    306,
+    36,
+    533,
+    170,
+    274,
+    121,
+    300
+   ]
+  }
+ ],
+ "unsectioned": [],
+ "notes": [
+  "Only one heading, 'パフェ PARFAIT', at top of page 1; pages 2-3 have no headings, so all items fall under it.",
+  "Non-section labels ignored: 'ソフトクリームをたっぷり使用!!' tagline (p1), '人気商品' badge on 377, '要予約' badge on 215 ジャンボパフェJr, 'ぜんざいに見立てたユニークなパフェ' caption on 306."
+ ]
+}

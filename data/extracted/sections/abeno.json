@@ -1,0 +1,150 @@
+{
+ "store": "abeno",
+ "sections": [
+  {
+   "name": "パフェおすすめ5",
+   "pages": [
+    1
+   ],
+   "items": [
+    429,
+    362,
+    377,
+    396,
+    432
+   ]
+  },
+  {
+   "name": "ジャンボソフトパフェ",
+   "pages": [
+    2
+   ],
+   "items": [
+    377,
+    320,
+    378,
+    310
+   ]
+  },
+  {
+   "name": "ジェラートパフェ",
+   "pages": [
+    2
+   ],
+   "items": [
+    454,
+    364,
+    453,
+    455,
+    363,
+    365
+   ]
+  },
+  {
+   "name": "お茶パフェ",
+   "pages": [
+    3
+   ],
+   "items": [
+    396,
+    388,
+    430,
+    429,
+    418,
+    391,
+    419,
+    394,
+    395
+   ]
+  },
+  {
+   "name": "生チョコマシュマロパフェ",
+   "pages": [
+    4
+   ],
+   "items": [
+    362,
+    319,
+    324,
+    423
+   ]
+  },
+  {
+   "name": "まんまるソフトパフェ",
+   "pages": [
+    4
+   ],
+   "items": [
+    431,
+    432,
+    433
+   ]
+  },
+  {
+   "name": "ボンボンパフェ",
+   "pages": [
+    5
+   ],
+   "items": [
+    409,
+    408,
+    434
+   ]
+  },
+  {
+   "name": "ワッフルパフェ",
+   "pages": [
+    6
+   ],
+   "items": [
+    361,
+    386,
+    397,
+    398,
+    435
+   ]
+  },
+  {
+   "name": "ジョッキパフェ",
+   "pages": [
+    7
+   ],
+   "items": [
+    383,
+    384
+   ]
+  },
+  {
+   "name": "ケーキパフェ",
+   "pages": [
+    7
+   ],
+   "items": [
+    382,
+    379
+   ]
+  },
+  {
+   "name": "セットパフェ",
+   "pages": [
+    15
+   ],
+   "items": [
+    436,
+    437,
+    438
+   ]
+  }
+ ],
+ "unsectioned": [],
+ "notes": [
+  "p1 heading is 'Recommended Parfait5 / パフェおすすめ5'; its items also appear in their category sections.",
+  "p3 お茶パフェ (Tea Parfait) has printed sub-labels: ロイヤルミルクティ (396), 抹茶 (388,430,429,418), ほうじ茶 (419,394,395); 391 (よくばり和風～抹茶とほうじ茶～) sits between the 抹茶 and ほうじ茶 panels. Also a つぼ市製茶本舗 brand box over the matcha/hojicha panels.",
+  "p4 right heading is English-only script 'Round Shape Softcream'; Japanese name まんまるソフトパフェ taken from item names (no Japanese heading printed).",
+  "p5 has two headings for the same 3 items: top 'ごほうびパフェ フルーツひとりじめ。' and bottom panel 'BonBon Parfait ボンボンパフェ'; used ボンボンパフェ.",
+  "p2 ジェラートパフェ has sub-labels 'Berry ベリー' and 'Mango マンゴー' (decorative circles, not strict groupings); p2 jumbo page has flavour words チョコ/マンゴー/抹茶/いちご as labels per item.",
+  "p4 生チョコマシュマロパフェ heading is 'GANACHE & MARSHMALLOW 生チョコマシュマロパフェ' with flavour tags CHOCOLATE(319)/CARAMEL(324)/COOKIE & CREAM(423).",
+  "p15 Jumbo Party Parfait ジャンボパーティーパフェ (¥11,000) has no item number, not in out json.",
+  "p7 Mug Parfait heading: 'Mug Parfait ジョッキパフェ'; Cake Parfait: 'CAKE PARFAIT ケーキパフェ'."
+ ]
+}

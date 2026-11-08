@@ -1,0 +1,39 @@
+/* Layout: the slot cabinet is a parfait glass — cream & cherry on top, reels in the bowl, sauce layers below,
+   stem and foot, a cherry lever on the side; each result prints as an order slip stacked on the previous ones. */
+:root {
+  --bg: #fbe3e8; --ink: #3b2219; --sub: #6e4239; --card: #fffaf4; --line: #efc6ce;
+  --cream: #fffaf0; --cream-shade: #f1e2cc; --berry: #df3159; --berry-d: #981a37; --berry-ink: #b81d43; --choco: #3e2117; --choco-2: #6b3a26;
+  --gold: #f0b13e; --matcha: #8db158; --glass: rgba(255, 255, 255, .55); --glass-edge: #ffffff; --reel-ink: #3e2117;
+  --font: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", "Yu Gothic", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1e1210; --ink: #f6e7dc; --sub: #c9a497; --card: #2b1a16; --line: #4a302a;
+    --cream: #f6ead8; --cream-shade: #dcc8ac; --berry: #ff5a7e; --berry-d: #a3213f; --berry-ink: #ff8fa6; --choco: #140a07; --choco-2: #5a3020;
+    --gold: #ffc35a; --matcha: #a2c46d; --glass: rgba(255, 255, 255, .07); --glass-edge: #6e4c41; --reel-ink: #3e2117;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1e1210; --ink: #f6e7dc; --sub: #c9a497; --card: #2b1a16; --line: #4a302a;
+  --cream: #f6ead8; --cream-shade: #dcc8ac; --berry: #ff5a7e; --berry-d: #a3213f; --berry-ink: #ff8fa6; --choco: #140a07; --choco-2: #5a3020;
+  --gold: #ffc35a; --matcha: #a2c46d; --glass: rgba(255, 255, 255, .07); --glass-edge: #6e4c41; --reel-ink: #3e2117;
+  color-scheme: dark;
+}
+:root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px) }
+* { box-sizing: border-box }
+[hidden] { display: none !important }
+body {
+  margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); font-weight: 500;
+  background-image: radial-gradient(var(--line) 1.5px, transparent 1.6px); background-size: 22px 22px;
+  display: flex; justify-content: center; padding-block: 18px 40px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+button { font-family: inherit }
+button:focus-visible, input:focus-visible + .sw { outline: 3px solid var(--gold); outline-offset: 2px }
+.nw { white-space: nowrap }
+.close {
+  display: block; margin: 14px auto 0; padding: 8px 22px; border-radius: 999px; border: 2px solid var(--berry-ink);
+  background: none; color: var(--berry-ink); font-weight: 800; cursor: pointer;
+}

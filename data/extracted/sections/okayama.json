@@ -1,0 +1,123 @@
+{
+ "store": "okayama",
+ "sections": [
+  {
+   "name": "パフェおすすめ5",
+   "pages": [
+    1
+   ],
+   "items": [
+    391,
+    362,
+    377,
+    396,
+    432
+   ]
+  },
+  {
+   "name": "ジャンボソフトパフェ",
+   "pages": [
+    2
+   ],
+   "items": [
+    320,
+    378,
+    377,
+    310
+   ]
+  },
+  {
+   "name": "ジェラートパフェ",
+   "pages": [
+    2
+   ],
+   "items": [
+    454,
+    364,
+    453,
+    455,
+    363,
+    365
+   ]
+  },
+  {
+   "name": "お茶パフェ",
+   "pages": [
+    3
+   ],
+   "items": [
+    396,
+    430,
+    391,
+    429,
+    388
+   ]
+  },
+  {
+   "name": "生チョコマシュマロパフェ",
+   "pages": [
+    4
+   ],
+   "items": [
+    362,
+    319,
+    324,
+    423
+   ]
+  },
+  {
+   "name": "ワッフルパフェ",
+   "pages": [
+    4
+   ],
+   "items": [
+    386,
+    397,
+    361,
+    398,
+    435
+   ]
+  },
+  {
+   "name": "GELATO / ICE",
+   "pages": [
+    5
+   ],
+   "items": [
+    431,
+    432,
+    433
+   ]
+  },
+  {
+   "name": "PUDDING",
+   "pages": [
+    5
+   ],
+   "items": [
+    439,
+    441,
+    440
+   ]
+  },
+  {
+   "name": "セットパフェ",
+   "pages": [
+    10
+   ],
+   "items": [
+    436,
+    437,
+    438
+   ]
+  }
+ ],
+ "unsectioned": [],
+ "notes": [
+  "p5 overall heading is English script 'Round Shape Softcream' (Japanese item names use まんまるソフトパフェ) with two sub-headings GELATO / ICE (431-433) and PUDDING (439-441); used the sub-headings as sections. Could instead be merged as one 'まんまるソフトパフェ' section.",
+  "p5 also has a '岡山限定' badge: いちごソフトに変更 +¥300 (an option, not a numbered item).",
+  "p3 お茶パフェ: 396 alone on the orange panel; 430/391/429/388 on the green つぼ市製茶本舗 panel (no 抹茶/ほうじ茶 sub-labels unlike abeno).",
+  "Mini parfaits 436-438 are on page 10 (outside pages 1-5) under 'Set Parfait セットパフェ all ¥560'.",
+  "p2 ジェラートパフェ has decorative Berry ベリー / Mango マンゴー sub-labels."
+ ]
+}
